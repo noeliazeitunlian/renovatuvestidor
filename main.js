@@ -179,17 +179,5 @@ function removeItems(){
         });
     })
 
-    function botonComprar(){
-        let botonComprar = document.querySelector('.btn-purchase');
-
-        botonComprar.addEventListener('click',()=>{
-            Swal.fire({
-                title: 'Producto agregado exitosamente',
-                text: '',
-                icon: 'success',
-                confirmButtonText: 'Aceptar'
-            })
-        })
-    }
 }
 
